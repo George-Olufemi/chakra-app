@@ -11,6 +11,7 @@ import {
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 import { Logo } from './Logo';
+import Navbar from './Navbar';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           </VStack>
         </Grid>
       </Box>
+      <Navbar /> 
     </ChakraProvider>
   );
 }
